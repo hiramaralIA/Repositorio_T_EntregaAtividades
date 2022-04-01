@@ -8,30 +8,18 @@ Var
 // Seção de Declarações das variáveis
      contador: inteiro
 
-Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+In
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
-
-  para contador de 10 ate 20 faca
-  escreval (" ",contador)
-  
-
-  fimpara
-  
-  
-     Fimalgoritmo
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
   
   
