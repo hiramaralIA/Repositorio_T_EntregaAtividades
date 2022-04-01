@@ -14,20 +14,21 @@ Var
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-   escreval("<><><><><> Sistema de gestão de vendedores <><><><><>")
-   escreva(">>> Digite o nome do vendedor: ")
+   escreval("####### Sistema de gestão de vendedores #######")
+   escreva("####### Digite o nome do vendedor: ")
    leia(nome)
-   escreva(">>> Digite o salário: ")
+   escreva("####### Digite o salário: ")
    leia(salario)
-   escreva(">>> Informe a quantidade de vendas deste no mês: ")
+   escreva("####### Informe a quantidade de vendas deste no mês: ")
    leia(vendas)
    
-   salarioFinal <- salario + ((vendas * 15) / 100)
+   comissao <- 1.15
+   salarioFinal <- salario + (vendas * comissao)
    
-   escreval("comissao >>>>>>>>> RESUMO <<<<<<<<<<")
+   escreval("comissao \n ####### RESUMO #######")
    escreval("-- Nome: ",nome)
    escreval("-- Salário: ",salario)
    escreval("-- Salário Final (salário + comissão): ",salarioFinal)
-   escreval(">>>>>>>>>><><><><><<<<<<<<<<")
+   escreval("###################################")
 
 Fimalgoritmo
