@@ -13,7 +13,7 @@ Inicio
 
 
   para contador de 10 ate 20 faca
-  escreval (contador)
+  escreval (" ",contador)
   
 
   fimpara
