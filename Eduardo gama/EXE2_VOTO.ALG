@@ -1,7 +1,7 @@
 Algoritmo "exe2_voto"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Descrição   : função idade para votar
 // Autor(a)    : Eduardo Costa Gama
 // Data atual  : 25/03/2022
 //    0-15 nao vota
