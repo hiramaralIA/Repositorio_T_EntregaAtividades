@@ -3,19 +3,20 @@ Algoritmo "semnome"
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Vilson dos Santos Oliveira Filho
-// Data atual  : 30/03/2022
+// Data atual  : 04/04/2022
 Var
-// Seção de Declarações das variáveis 
-x, y : inteiro
+// Seção de Declarações das variáveis
+correcao, deposito: real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
+escreval("Sistema de depósito do Banco do Oeste")
 
-escreval("Digite primeiro numero")
-leia(x)
-escreval("Digite segundo numero")
-leia(y)
+escreva("Digite o valor depositado: ")
+leia(deposito)
 
-escreval("Resultado da soma desses numeros será: ",x+y)
+correcao <- deposito*0.70
+
+escreval("Seu rendimento após será de ",correcao," reais ao mês")
 
 Fimalgoritmo
