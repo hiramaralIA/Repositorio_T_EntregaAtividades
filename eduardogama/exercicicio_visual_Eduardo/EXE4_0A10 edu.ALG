@@ -1,17 +1,21 @@
-Algoritmo "exe7_nomecompleto"
+Algoritmo "exe4_0a10"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Eduardo Costa Gama
 // Data atual  : 25/03/2022
+
 Var
 // Seção de Declarações das variáveis
-   nome, snome, ncompleto: caractere
+     contador: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("média: ")
-   leia(nome)
 
+
+   enquanto (contador < 21) faca
+      escreva(contador)
+      contador <- contador + 1
+      fimenquanto
 
 Fimalgoritmo

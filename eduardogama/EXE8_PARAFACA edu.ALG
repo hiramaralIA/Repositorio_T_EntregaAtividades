@@ -1,4 +1,4 @@
-Algoritmo "exe7_nomecompleto"
+Algoritmo "exe8_parafaca"
 // Disciplina   : [Linguagem e Lógica de Programação]
 // Professor   : Hiram Amaral 
 // Descrição   : Aqui você descreve o que o programa faz! (função)
@@ -6,12 +6,16 @@ Algoritmo "exe7_nomecompleto"
 // Data atual  : 25/03/2022
 Var
 // Seção de Declarações das variáveis
-   nome, snome, ncompleto: caractere
+     contador: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("média: ")
-   leia(nome)
+
+
+  para contador de 1 ate 50 faca
+  escreva(contador)
+  fimpara
+
 
 
 Fimalgoritmo

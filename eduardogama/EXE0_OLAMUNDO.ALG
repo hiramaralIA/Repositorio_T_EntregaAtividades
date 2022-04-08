@@ -10,6 +10,7 @@ Var
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    escreva("Ola Mundo!")
+   escreva("ola Terra")
 
 Fimalgoritmo
 © 2022 GitHub, Inc.

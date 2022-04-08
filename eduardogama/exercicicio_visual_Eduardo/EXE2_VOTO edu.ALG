@@ -21,7 +21,7 @@ Inicio
     se idade < 16 entao
        escreva("Nao tem idade para votar!")
        senao
-       se (idade >=16) e (idade < 18) ou (idade >=70)  entao
+       se (idade >=16) e (idade < 18) ou (idade >=65)  entao
        escreva("Seu voto e opcional. ")
        senao
        escreva("Seu voto e obrigatorio! ")

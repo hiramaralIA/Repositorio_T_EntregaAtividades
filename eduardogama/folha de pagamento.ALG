@@ -1,0 +1,30 @@
+algoritmo "exer"
+
+// Função : Escrever um algoritmo para uma empresa que decide dar um //
+//reajuste a seus 584 funcionários de acordo com os
+// seguintes critérios:
+// a) 50% para aqueles que ganham menos do que três salários mínimos; //
+//b) 20% para aqueles que ganham entre três até dez salários mínimos; //
+//c) 15% para aqueles que ganham acima de dez até vinte salários mínimos; //
+//d) 10% para os demais funcionários.
+// Leia o nome do funcionário, seu salário e o valor do salário mínimo. //
+//Calcule o seu novo salário reajustado. Escrever o
+// nome do funcionário, o reajuste e seu novo salário. Calcule quanto à //
+//empresa vai aumentar sua folha de pagamento.
+// Seção de Declarações
+Var
+
+   salario, salarioMinimo, novoSalario, reajuste, reajusteTotal, folha, novaFolha, nome,opc: caractere
+   x: inteiro
+inicio
+   // Seção de Comandos
+   opc <- "x"
+   escreval("<><><><><> Sistema de reajuste salarial <><><><><>")
+   escreva("Digite o valor atual do salário mínimo: ")
+   leia(salarioMinimo)
+   para x de 1 ate 2 faca
+      limpatela
+      escreva("Digite o nome: ")
+   fimse
+fimalgoritmo
+
