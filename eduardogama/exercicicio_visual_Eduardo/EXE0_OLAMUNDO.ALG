@@ -1,20 +1,16 @@
-Algoritmo "exe8_parafaca"
+Algoritmo "exe0_olamundo"
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Hiram Amaral 
+// Professor   : Hiram Amaral
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Eduardo Costa Gama
+// Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 25/03/2022
 Var
 // Seção de Declarações das variáveis
-     contador: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-
-
-  para contador de 1 ate 10 faca
-  escreva(contador)
-  fimpara
-
+   escreva("Ola Mundo!")
+   escreva("ola Terra")
 
 Fimalgoritmo
+© 2022 GitHub, Inc.

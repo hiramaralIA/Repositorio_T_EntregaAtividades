@@ -9,7 +9,7 @@ Var
    sexo: caractere
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
-   escreva("M = mulher | H = homem | O = outros")
+   escreva("M = mulher | H = homem | O = outros | N = não declarar")
    escreva("Digite uma sigla para seu sexo: ")
    leia(sexo)
 
@@ -22,7 +22,9 @@ Inicio
         escreva("voce e homem")
       caso "o"
         escreva("voce e outro")
-      outrocaso
+      caso "n"
+        escreva("não declarou")
+        outrocaso
       
       escreva("Entrada invalida")
       fimescolha
