@@ -1,0 +1,46 @@
+// Autor(a)    :gabrielly cristine
+// Data atual  : 15/04/2022
+Var
+// Seção de Declarações das variáveis 
+y: inteiro
+nome: caracter
+sal_atual, sal_min, reajuste, sal_novo, fo_pa, qnt_sal: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+fo_pa <- 0
+escreval("==================REAJUSTE SALARIO EMPRESA X ====================")
+escreva(" insira o valor do Salário Minimo atualmente: ")
+leia(sal_min)
+para y de 1 ate 584 faca
+escreval(" insira o nome do funcionário: ")
+leia(nome)
+escreval(" insira o salário atual desse funcionário: ")
+leia(sal_atual)
+qnt_sal <- sal_atual / sal_min
+se (qnt_sal <= 3) entao
+reajuste <- sal_atual * 0.5
+sal_novo <- sal_atual + reajuste
+senao
+se (qnt_sal > 3) e (qnt_sal <=10) entao
+reajuste <- sal_atual * 0.20
+sal_novo <- sal_atual + reajuste
+senao
+se (qnt_sal > 10) e (qnt_sal <= 20) entao
+reajuste <- sal_atual * 0.15
+sal_novo <- sal_atual + reajuste
+senao
+se (qnt_sal > 20) entao
+reajuste <- sal_atual * 0.10
+sal_novo <- sal_atual + reajuste
+fimse
+fimse
+fimse
+fimse
+interrompa
+escreva(" O funcionário ",nome," tem reajuste de R$",reajuste)
+escreva(" O novo salário será igual a R$",sal_novo)
+fo_pa <- fo_pa + reajuste
+fimpara
+escreva(" aumento na folha de pagamento da empresa é de R$",fo_pa)
+Fimalgoritmo
