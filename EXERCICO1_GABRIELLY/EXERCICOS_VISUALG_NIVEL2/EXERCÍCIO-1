@@ -1,0 +1,20 @@
+Algoritmo "EXE1"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Hiram Amaral 
+// Descrição   : EXERCICIOS NIVEL 2
+// Autor(a)    : Gabrielly Cristine
+// Data atual  : 20/04/2022
+Var
+// Seção de Declarações das variáveis 
+n1, n2,  mult: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+escreva("insira o primeiro numero: ")
+leia(n1)
+escreva(" insira o segundo numero: ")
+leia(n2)
+mult <- n1 * n2
+escreva(mult)
+
+Fimalgoritmo
